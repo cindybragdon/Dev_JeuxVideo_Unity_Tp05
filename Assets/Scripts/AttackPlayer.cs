@@ -9,6 +9,10 @@ public class AttackPlayer : MonoBehaviour
     Animator creatureAnimator;
     public int maxRange;
     public int minRange;
+    public List<AudioClip> listAudioClip;
+
+    public AudioSource audioSource;
+    private bool isOnTimePlay;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +28,14 @@ public class AttackPlayer : MonoBehaviour
            && (Vector3.Distance(transform.position, player.transform.position) > minRange))
         {
             creatureAnimator.SetBool("Attack", true);
+            if (!isOnTimePlay) {
+                audioSource.PlayOneShot(listAudioClip[Random.Range(0, listAudioClip.Count)]);
+                isOnTimePlay = true;
+            }
+
         } else {
             creatureAnimator.SetBool("Attack", false);
+            isOnTimePlay = false;
         }
     }
 }

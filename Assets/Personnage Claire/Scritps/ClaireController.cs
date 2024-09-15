@@ -15,7 +15,7 @@ public class ClaireController : MonoBehaviour {
 
     Rigidbody rb;
 
-    const float timeout = 10.0f;
+    const float timeout = 15.0f;
     [SerializeField] float countdown = timeout;
 
    
