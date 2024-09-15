@@ -42,6 +42,7 @@ public class FrontDoor : MonoBehaviour
                 animator.SetTrigger("Close"); // Trigger the closing animation
                 doorClosedPermanently = true; // Mark the door as closed permanently
                 Debug.Log("The door is now closed permanently.");
+                gameObject.GetComponent<Collider>().isTrigger = false; 
             }
         }
     }
