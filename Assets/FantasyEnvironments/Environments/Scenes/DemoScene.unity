@@ -357,6 +357,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3254808411805162758, guid: 47067cc31cc152f42b67f087a7ac731e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.9053109
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254808411805162758, guid: 47067cc31cc152f42b67f087a7ac731e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254808411805162758, guid: 47067cc31cc152f42b67f087a7ac731e, type: 3}
+      propertyPath: m_Size.z
+      value: 1.1427315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254808411805162758, guid: 47067cc31cc152f42b67f087a7ac731e, type: 3}
+      propertyPath: m_Center.x
+      value: -0.45387113
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254808411805162758, guid: 47067cc31cc152f42b67f087a7ac731e, type: 3}
+      propertyPath: m_Center.z
+      value: 0.07155524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254808411805162758, guid: 47067cc31cc152f42b67f087a7ac731e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -1316,6 +1336,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1042591853247572795, guid: 571ddb910cdcbcc45ac65c2b59ae90b1, type: 3}
+      propertyPath: m_Size.x
+      value: 1.9817852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042591853247572795, guid: 571ddb910cdcbcc45ac65c2b59ae90b1, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042591853247572795, guid: 571ddb910cdcbcc45ac65c2b59ae90b1, type: 3}
+      propertyPath: m_Size.z
+      value: 1.0445856
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042591853247572795, guid: 571ddb910cdcbcc45ac65c2b59ae90b1, type: 3}
+      propertyPath: m_Center.x
+      value: 0.49089321
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042591853247572795, guid: 571ddb910cdcbcc45ac65c2b59ae90b1, type: 3}
+      propertyPath: m_Center.z
+      value: 0.022294391
+      objectReference: {fileID: 0}
     - target: {fileID: 1042591853247572795, guid: 571ddb910cdcbcc45ac65c2b59ae90b1, type: 3}
       propertyPath: m_IsTrigger
       value: 1
