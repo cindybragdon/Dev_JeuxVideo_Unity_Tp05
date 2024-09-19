@@ -42,7 +42,7 @@ Voici Claire
 
 ![image](https://github.com/user-attachments/assets/47625d8a-5f63-4ef4-a1b5-e0f6810bbdc2)
 
-![image](https://github.com/user-attachments/assets/18cf4c44-fac1-4f5f-86ec-2fc0cd6b5981
+![image](https://github.com/user-attachments/assets/fbcbd45e-310f-4405-848b-57ebacf8b433)
 
 ![image](https://github.com/user-attachments/assets/4b0122f8-748a-4a95-85e7-f511be1fd2b1)
 
