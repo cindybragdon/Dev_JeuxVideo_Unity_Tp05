@@ -5,14 +5,14 @@ using UnityEngine;
 public class ExitDoor : MonoBehaviour
 {
     public bool CanOpen = false;
-    private void OnTriggerEnter(Collider other)
+    void Update()
     {
  
         // Vérifiez si l'objet qui est entré dans le trigger a le tag "Player"
-        if ((other.CompareTag("Player")) && CanOpen)
+        if (CanOpen)
         {
  
-            GetComponent<Animator>().enabled = true;
+            GetComponent<Animator>().SetBool("isClosed", false);
 
  
  
