@@ -21,9 +21,10 @@ un labyrinthe en trouvant des clés pour progresser et éviter des ennemis.
 # ***Personnage***
 
 Voici Claire 
+
 ![image](https://github.com/user-attachments/assets/024eb5cf-7ad1-46fe-922e-d82644858036)
 
-# ***Le Labirynthe***
+# ***Le Labyrinthe***
 
 ![image](https://github.com/user-attachments/assets/7224cde3-ba26-45c2-b4fb-b267fef2e204)
 
