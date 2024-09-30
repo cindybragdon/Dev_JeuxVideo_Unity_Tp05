@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AttackPlayer : MonoBehaviour
 {
@@ -13,6 +14,15 @@ public class AttackPlayer : MonoBehaviour
 
     public AudioSource audioSource;
     private bool isOnTimePlay;
+
+    
+    public Slider sliderCoeur;
+    public Text textCoeur; 
+    public float timelapseAttack = 0;
+    public float timeBeforeDealDamage = 2f;
+
+    public float valueDamage = 30f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +37,16 @@ public class AttackPlayer : MonoBehaviour
         if ((Vector3.Distance(transform.position, player.transform.position) < maxRange)
            && (Vector3.Distance(transform.position, player.transform.position) > minRange))
         {
+
+            timelapseAttack += Time.deltaTime;
+            print(timelapseAttack);
+
+            if(timelapseAttack >= timeBeforeDealDamage) {
+                sliderCoeur.value -= valueDamage;
+                textCoeur.text = sliderCoeur.value + "%";
+                timelapseAttack = 0;
+            }
+
             creatureAnimator.SetBool("Attack", true);
             if (!isOnTimePlay) {
                 audioSource.PlayOneShot(listAudioClip[Random.Range(0, listAudioClip.Count)]);
@@ -36,6 +56,8 @@ public class AttackPlayer : MonoBehaviour
         } else {
             creatureAnimator.SetBool("Attack", false);
             isOnTimePlay = false;
+            timelapseAttack = 0;
+            
         }
     }
 }

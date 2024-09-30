@@ -29,5 +29,7 @@ public class CountDown : MonoBehaviour
         }
          SceneManager.LoadScene ("CanvasStartEntree");
         Debug.Log("Game over");
+        Application.Quit();
+        
     }
 }
