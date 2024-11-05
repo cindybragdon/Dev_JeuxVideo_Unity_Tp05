@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class CountDown : MonoBehaviour
 {
     [SerializeField]  // Attribut correctement écrit
-    private int startCountDown = 60;
+    private int startCountDown = 90;
  
     [SerializeField]  // Attribut correctement écrit
     private Text TxtCountDown;

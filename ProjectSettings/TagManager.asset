@@ -8,6 +8,7 @@ TagManager:
   - Energie
   - Nourriture
   - Checkpoint
+  - Destroyable
   layers:
   - Default
   - TransparentFX
